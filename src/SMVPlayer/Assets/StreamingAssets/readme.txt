@@ -1,0 +1,1 @@
+Fill the videos and frames folders with the SMV content you desire to play

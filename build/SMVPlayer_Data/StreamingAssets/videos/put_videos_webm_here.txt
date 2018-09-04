@@ -1,0 +1,7 @@
+Please, insert the SMV video sequences in this folder if you want to play SMV videos.
+The videos must be in WEBM format and follow the a specific format: name0000.webm, name0001.webm...
+
+
+Example of FFMPEG command to convert multiple YUV files to WEBM (+scaling):
+
+ffmpeg -f rawvideo -vcodec rawvideo -s 1280x768 -r 24 -pix_fmt yuv420p -i BBB_Flowers_cam0020.yuv -vf scale=640:-1 -c:v libvpx -b:v 1000K -c:a libvorbis champa0039.webm
