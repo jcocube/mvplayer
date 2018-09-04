@@ -10,10 +10,10 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 
 * As just explained, the 'build' folder contains a .exe file with the player ready to run on Windows platforms. 
 * The player has been tested,
-** in a computer with the following characteristics: Intel Core i7-4790 CPU 3.60GHz, RAM 32GB, 64bit OS, Windows 10 OS, NVIDIA GeForce GTX970.
-** using the Oculus Rift DK2 headset, but should also run in Oculus CV1.
-** with the support of Oculus Runtime software, that must be installed in the computer
-** and using Unity 3D 2017.3.1f1 software (only needed if you desire to modify the source code).
+- in a computer with the following characteristics: Intel Core i7-4790 CPU 3.60GHz, RAM 32GB, 64bit OS, Windows 10 OS, NVIDIA GeForce GTX970.
+- using the Oculus Rift DK2 headset, but should also run in Oculus CV1.
+- with the support of Oculus Runtime software, that must be installed in the computer
+- and using Unity 3D 2017.3.1f1 software (only needed if you desire to modify the source code).
 
 ## BUILD
 
