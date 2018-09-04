@@ -39,7 +39,7 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 ## KeyMap
 * **A**: virtually move the camera to the left
 * **D**: virtually move the camera to the right
-* **Esc**, Enter or C: go to the player scene
+* **Esc, Enter or C**: go to the player scene
 * **M**: increase the light intensity
 * **N**: decrese the light intensity
 * **S**: force re-synchronization
