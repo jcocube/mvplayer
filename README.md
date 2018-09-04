@@ -28,23 +28,23 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 # User manual
 
 ## Configuration/Settings screen:
-* Video name format: Prefix of the video files names common in all the files. For example, for the sequence of 91 videos with videos from BBB_Butterfly_cam0000 to BBB_Butterfly_cam0090, the video name format will be BBB_Butterfly_cam.
-* Number of cameras/videos: The total number of videos in the sequence.
-* Interocular distance (stereo baseline): distance between left and right views (measured in number of camera gaps).
-* Number of background views: number of views that are played simultaneously in the background, and prepared to be displayed on the screen. 
-* Video resolution: Resolution of the input videos/frames. We recommend the use of SD resolutions.
-* Switching distance: horizontal distance between two consecutive views, i.e. distance that the head needs to move to switch to the contiguous view.
-* Type of content: 1 for SMV video, 0 for SMV frames.
+* **Video name format**: Prefix of the video files names common in all the files. For example, for the sequence of 91 videos with videos from BBB_Butterfly_cam0000 to BBB_Butterfly_cam0090, the video name format will be BBB_Butterfly_cam.
+* **Number of cameras/videos**: The total number of videos in the sequence.
+* **Interocular distance (stereo baseline)**: distance between left and right views (measured in number of camera gaps).
+* **Number of background views**: number of views that are played simultaneously in the background, and prepared to be displayed on the screen. 
+* **Video resolution**: Resolution of the input videos/frames. We recommend the use of SD resolutions.
+* **Switching distance**: horizontal distance between two consecutive views, i.e. distance that the head needs to move to switch to the contiguous view.
+* **Type of content**: 1 for SMV video, 0 for SMV frames.
 
 ## KeyMap
-* A: virtually move the camera to the left
-* D: virtually move the camera to the right
-* Esc, Enter or C: go to the player scene
-* M: increase the light intensity
-* N: decrese the light intensity
-* S: force re-synchronization
-* Up: moving the screens closer to the camera
-* Down: moving the screens further to the camera
+* **A**: virtually move the camera to the left
+* **D**: virtually move the camera to the right
+* **Esc**, Enter or C: go to the player scene
+* **M**: increase the light intensity
+* **N**: decrese the light intensity
+* **S**: force re-synchronization
+* **Up**: moving the screens closer to the camera
+* **Down**: moving the screens further to the camera
 
 
 ## Notes
