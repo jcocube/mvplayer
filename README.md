@@ -57,5 +57,5 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 * The system should also work for the consumer version CV1 of the Oculus HMD. To use with other HMDs, such as the HTC Vive, please open the Unity scene and change the main camera object.
 * After running the application, the Oculus Runtime should automatically starts. If not, please do it manually.
 * The MV sequences included in this project were downloaded from:
-  - *[1] http://www.fujii.nuee.nagoya-u.ac.jp/multiview-data/
-  - [2] www.bigbuckbunny.org / P.T. Kovacs, A. Fekete, K. Lackner, V.K. Adhikarla, A. Zare, T. Balogh, “Big Buck Bunny light-field test sequences” provided by Holografika for MPEG FTV AHG, (c) copyright 2008, Blender Foundation*
+  - *[1] http://www.fujii.nuee.nagoya-u.ac.jp/multiview-data/*
+  - *[2] www.bigbuckbunny.org / P.T. Kovacs, A. Fekete, K. Lackner, V.K. Adhikarla, A. Zare, T. Balogh, “Big Buck Bunny light-field test sequences” provided by Holografika for MPEG FTV AHG, (c) copyright 2008, Blender Foundation*
