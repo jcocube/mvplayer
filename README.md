@@ -2,7 +2,7 @@
 
 # mvplayer
 mvplayer is a MultiView (MV) player designed to play MV content (video and static frames) with Head-Mounted Devices (HMD). Additionally, mvplayer can be also used without needing a HMD, simulating the HMD movement using the keyboard.
-![Alt text](images/basics.png "Basics of the MV-HMD player") ![Alt text](images/stereo.png "Example of the stereo viewports displayed in the HMD")
+| ![Alt text](images/basics.png "Basics of the MV-HMD player")  | ![Alt text](images/stereo.png "Example of the stereo viewports displayed in the HMD") |
 
 ## Content
 
