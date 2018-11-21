@@ -1,5 +1,5 @@
-# smvplayer
-smvplayer is a Super MultiView (SMV) player designed to play SMV content (video and static frames) with Head-Mounted Devices (HMD). Additionally, smvplayer can be also used without needing a HMD, simulating the HMD movement using the keyboard.
+# mvplayer
+mvplayer is a MultiView (MV) player designed to play MV content (video and static frames) with Head-Mounted Devices (HMD). Additionally, mvplayer can be also used without needing a HMD, simulating the HMD movement using the keyboard.
 
 ## Content
 
@@ -16,13 +16,13 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 
 ## Build
 
-* The 'SMVPlayer_Data' folder inside this build contains the 'StreamingAssets' folder where the SMV videos or frames that want to be played must be located.
-  - The SMV videos must be in the 'SMVPlayer_Data/StreamingAssets/videos' path in WEBM's format. All the videos of a same sequence must have the same prefix in the name, followed by a 4 digits number. For example: BBB_Flowers_cam0000,BBB_Flowers_cam0001,...,BBB_Flowers_cam0089,BBB_Flowers_cam0090. 
-  - The SMV frames must be in the 'SMVPlayer_Data/StreamingAssets/frames' path in PNG's format. All the frames of a same content must have the same prefix in the name, followed by a 4 digits number. For example: frame0_champa0000,frame0_champa0001,...,frame0_champa0078,frame0_champa0079.
+* The 'SMVPlayer_Data' folder inside this build contains the 'StreamingAssets' folder where the MV videos or frames that want to be played must be located.
+  - The MV videos must be in the 'SMVPlayer_Data/StreamingAssets/videos' path in WEBM's format. All the videos of a same sequence must have the same prefix in the name, followed by a 4 digits number. For example: BBB_Flowers_cam0000,BBB_Flowers_cam0001,...,BBB_Flowers_cam0089,BBB_Flowers_cam0090. 
+  - The MV frames must be in the 'SMVPlayer_Data/StreamingAssets/frames' path in PNG's format. All the frames of a same content must have the same prefix in the name, followed by a 4 digits number. For example: frame0_champa0000,frame0_champa0001,...,frame0_champa0078,frame0_champa0079.
 
 ## Src
 
-* Additionally, the source code is also provided. It contains two scenes (each one with an associated script) one where the SMV content settings must be specified, and the main scene where the playback takes place.
+* Additionally, the source code is also provided. It contains two scenes (each one with an associated script) one where the MV content settings must be specified, and the main scene where the playback takes place.
 * The project can be easily adapted to run with other HMD headset than Oculus and built to other platforms (Mac, Linux...).
 
 # User manual
@@ -34,7 +34,7 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 * **Number of background views**: number of views that are played simultaneously in the background, and prepared to be displayed on the screen. 
 * **Video resolution**: Resolution of the input videos/frames. We recommend the use of SD resolutions.
 * **Switching distance**: horizontal distance between two consecutive views, i.e. distance that the head needs to move to switch to the contiguous view.
-* **Type of content**: 1 for SMV video, 0 for SMV frames.
+* **Type of content**: 1 for MV video, 0 for MV frames.
 
 ## KeyMap
 * **A**: virtually move the camera to the left
