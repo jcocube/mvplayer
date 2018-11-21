@@ -1,2 +1,4 @@
-Please, insert the SMV static (frames) sequences in this folder if you want to play SMV frames instead of videos.
+Please, unzip the file and leave the images in directly in the "frames" directory.
+
+If you want to use your own videos, please insert the SMV static (frames) sequences in this folder if you want to play SMV frames instead of videos.
 The frames must be in PNG format and follow the a specific format: name0000.png, name0001.png...
