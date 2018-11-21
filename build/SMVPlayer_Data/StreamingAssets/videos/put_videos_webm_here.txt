@@ -1,4 +1,6 @@
-Please, insert the SMV video sequences in this folder if you want to play SMV videos.
+Please, unzip the file and leave the videos in directly in the "videos" directory.
+
+If you want to use your own videos, please insert the SMV video sequences in this folder if you want to play SMV videos.
 The videos must be in WEBM format and follow the a specific format: name0000.webm, name0001.webm...
 
 
