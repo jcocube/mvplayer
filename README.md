@@ -1,7 +1,7 @@
 *The documentation of the project is curently limited. If you are interested in using the sw and experience difficulties or have further questions, please contact Javier Cubelos {jco@gti.ssr.upm.es} and Pablo Carballeira {pablo.carballeira@uam.es} for further information.*
 
-# mvplayer
-mvplayer is a MultiView (MV) player designed to play MV content (video and static frames) with Head-Mounted Devices (HMD). Additionally, mvplayer can be also used without needing a HMD, simulating the HMD movement using the keyboard.
+# MV-HMD player
+The MV-HMD player is a MultiView (MV) player designed to play MV content (video and static frames) with Head-Mounted Devices (HMD). Additionally, the MV-HMD player can be also used without needing a HMD, simulating the HMD movement using the keyboard.
 
 <img src="images/basics.png" width="400" hspace="20" title="Basics of the MV-HMD player"/> <img src="images/stereo.png" width="400" title="Example of the stereo viewports displayed in the HMD"/> 
 
@@ -29,16 +29,16 @@ This project contains two main folders: 'build' and 'src'. 'Build' contains a bu
 
 ## Requirements
 
-* As just explained, the 'build' folder contains a .exe file with the player ready to run on Windows platforms. 
-* The player has been tested,
+* The 'build' folder contains a .exe file with the player ready to run on a Windows platform. 
+* The player has been tested:
   - in a computer with the following characteristics: Intel Core i7-4790 CPU 3.60GHz, RAM 32GB, 64bit OS, Windows 10 OS, NVIDIA GeForce GTX970.
   - using the Oculus Rift DK2 headset, but should also run in Oculus CV1.
   - with the support of Oculus Runtime software, that must be installed in the computer
-  - and using Unity 3D 2017.3.1f1 software (only needed if you desire to modify the source code).
+  - and using Unity 3D 2017.3.1f1 software (only needed if you want to modify the source code).
 
 ## Build
 
-* The 'SMVPlayer_Data' folder inside this build contains the 'StreamingAssets' folder where the MV videos or frames that want to be played must be located.
+* The 'SMVPlayer_Data' folder inside this build contains the 'StreamingAssets' folder where the MV videos or frames must be located.
   - The MV videos must be in the 'SMVPlayer_Data/StreamingAssets/videos' path in WEBM's format. All the videos of a same sequence must have the same prefix in the name, followed by a 4 digits number. For example: BBB_Flowers_cam0000,BBB_Flowers_cam0001,...,BBB_Flowers_cam0089,BBB_Flowers_cam0090. 
   - The MV frames must be in the 'SMVPlayer_Data/StreamingAssets/frames' path in PNG's format. All the frames of a same content must have the same prefix in the name, followed by a 4 digits number. For example: frame0_champa0000,frame0_champa0001,...,frame0_champa0078,frame0_champa0079.
 
