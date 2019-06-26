@@ -5,6 +5,24 @@ mvplayer is a MultiView (MV) player designed to play MV content (video and stati
 
 <img src="images/basics.png" width="400" hspace="20" title="Basics of the MV-HMD player"/> <img src="images/stereo.png" width="400" title="Example of the stereo viewports displayed in the HMD"/> 
 
+## Reference 
+Please cite our work: J. Cubelos, P. Carballeira, J. Gutiérrez, N. García, “QoE analysis of Dense Multiview Video with Head-Mounted Devices”, IEEE Transactions on Multimedia, (early access), June 2019.
+
+```
+@article{ 
+  author={J. {Cubelos} and P. {Carballeira} and J. {Gutiérrez} and N. {García}}, 
+  journal={IEEE Transactions on Multimedia}, 
+  title={QoE analysis of Dense Multiview Video with Head-Mounted Devices}, 
+  year={2019}, 
+  volume={}, 
+  number={}, 
+  pages={1-1}, 
+  doi={10.1109/TMM.2019.2924575}, 
+  ISSN={1520-9210}, 
+  month={},
+}
+```
+
 ## Content
 
 This project contains two main folders: 'build' and 'src'. 'Build' contains a build version of the Unity project ready to run on Windows, while 'src' contains the original Unity Project
