@@ -8,6 +8,8 @@ The MV-HMD player is a MultiView (MV) player designed to play MV content (video 
 ## Reference 
 Please cite our work: J. Cubelos, P. Carballeira, J. Gutiérrez, N. García, “QoE analysis of Dense Multiview Video with Head-Mounted Devices”, IEEE Transactions on Multimedia, (early access), June 2019.
 
+Link: [https://doi.org/10.1109/TMM.2019.2924575](https://doi.org/10.1109/TMM.2019.2924575)
+
 ```
 @article{ 
   author={J. {Cubelos} and P. {Carballeira} and J. {Gutiérrez} and N. {García}}, 
